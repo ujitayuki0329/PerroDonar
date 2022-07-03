@@ -19,18 +19,24 @@
         <img class="carousel-img" src="~/assets/img/slide3.png" alt="スライド3">
       </slide>
     </carousel>
+    <Footer />
+    <BottomNavigation />
   </div>
 </template>
 
 <script>
   import Header from '~/components/Header.vue'
   import WelcomeBar from '~/components/WelcomeBar.vue'
+  import Footer from '~/components/Footer.vue'
+  import BottomNavigation from '~/components/BottomNavigation.vue'
   import Carousel from 'vue-carousel/src/Carousel.vue'
   import Slide from 'vue-carousel/src/Slide.vue'
   export default {
     components: {
       Header,
       WelcomeBar,
+      Footer,
+      BottomNavigation,
       Carousel,
       Slide
     },
